@@ -315,7 +315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "iclr:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 91.44 87.63 0)
 			(effects
 				(font
