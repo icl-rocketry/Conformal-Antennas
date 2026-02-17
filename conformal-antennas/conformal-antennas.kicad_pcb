@@ -123,13 +123,13 @@
 	(footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 		(layer "F.Cu")
 		(uuid "26072b27-60f2-4c75-99a1-748117c06d80")
-		(at 108.2 149.5375 -90)
+		(at 108.2 144 -90)
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/")
 		(tags "SMA")
 		(property "Reference" "J1"
 			(at -3.96 -3 0)
 			(layer "F.SilkS")
-			(uuid "031f2bdd-9b78-4de1-91f0-6da24351c674")
+			(uuid "71f5dc4f-b38c-4229-ac54-3c705a639a4e")
 			(effects
 				(font
 					(size 1 1)
@@ -140,7 +140,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 5 6 90)
 			(layer "F.Fab")
-			(uuid "351ad571-2db6-4a64-9167-3ee6ccd1f9b5")
+			(uuid "1b0e0f7f-72e2-4d74-9054-53dba58f9c2b")
 			(effects
 				(font
 					(size 1 1)
@@ -153,7 +153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76e63e06-3dc2-4c97-bff5-d0fc5bd6ab20")
+			(uuid "fef81f84-a681-4637-991b-df59e07ec70c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27e1e63c-d0d4-47d1-855b-84aa4806dc20")
+			(uuid "211cc312-d993-4db2-9eec-73f4c85242e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,6 +498,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 34.6 59.3)
+		(end 188.5 176.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9fc03eb6-5385-4f02-bed4-a15f130bebc5")
+	)
 	(segment
 		(start 247.5 119)
 		(end 247.5 118.5)
@@ -507,12 +518,12 @@
 		(uuid "fea87f2a-0ad3-4526-8d62-213e869527d1")
 	)
 	(segment
-		(start 108.2 149.5375)
+		(start 108.2 144)
 		(end 108.2 117)
 		(width 0.45)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "9eec017e-e8c6-47d1-8156-75b1ed3cbed1")
+		(uuid "b4f2bf25-9a6c-4143-bd40-2e6b28459553")
 	)
 	(segment
 		(start 108.2 117)
